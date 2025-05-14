@@ -1,0 +1,28 @@
+src/
+├── assets/
+│   └── logo.png                  # Logo or icons used in the UI
+│
+├── components/
+│   ├── InputForm.js              # Form to input delivery points and constraints
+│   ├── RouteMap.js               # Google/Leaflet map showing optimized route
+│   ├── StatsPanel.js             # Displays metrics like time saved, fuel saved, etc.
+│   ├── TrafficAlert.js           # Shows traffic alerts or re-routing messages
+│   └── Navbar.js                 # (Optional) Navigation bar or header
+│
+├── pages/
+│   └── Dashboard.js              # Main page that combines form, map, stats
+│
+├── api/
+│   └── googleMapsAPI.js          # Handles requests to Google Maps (distance, geocoding, etc.)
+│
+├── utils/
+│   ├── geneticAlgorithm.js       # Genetic algorithm for route optimization
+│   ├── haversine.js              # Distance calculation utility (Haversine formula)
+│   └── helpers.js                # Formatters or reusable utility functions
+│
+├── styles/
+│   └── App.css                   # Global styles
+│   └── RouteMap.module.css      # Scoped CSS for the map component
+│
+├── App.js                        # Main app layout and routing
+├── index.js                      #
